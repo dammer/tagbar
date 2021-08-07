@@ -206,7 +206,11 @@ function! tagbar#types#ctags#init(supported_types) abort
         \ {'short' : 'M', 'long' : 'macros',            'fold' : 0, 'stl' : 1},
         \ {'short' : 'l', 'long' : 'libs',              'fold' : 0, 'stl' : 1},
         \ {'short' : 's', 'long' : 'structs',           'fold' : 0, 'stl' : 1},
-        \ {'short' : 'a', 'long' : 'aliases',           'fold' : 0, 'stl' : 1}
+        \ {'short' : 'a', 'long' : 'aliases',           'fold' : 0, 'stl' : 1},
+        \ {'short' : 'p', 'long' : 'properties',        'fold' : 0, 'stl' : 1},
+        \ {'short' : 'S', 'long' : 'setters',           'fold' : 0, 'stl' : 1},
+        \ {'short' : 'g', 'long' : 'getters',           'fold' : 0, 'stl' : 1},
+
     \ ]
     let type_crystal.sro        = '::'
     let types.crystal = type_crystal
