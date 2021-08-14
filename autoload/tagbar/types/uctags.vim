@@ -334,7 +334,8 @@ function! tagbar#types#uctags#init(supported_types) abort
         \ {'short' : 'p', 'long' : 'properties',        'fold' : 0, 'stl' : 1},
         \ {'short' : 'S', 'long' : 'setters',           'fold' : 0, 'stl' : 1},
         \ {'short' : 'g', 'long' : 'getters',           'fold' : 0, 'stl' : 1},
-        \ {'short' : 'C', 'long' : 'constants',         'fold' : 0, 'stl' : 1}
+        \ {'short' : 'C', 'long' : 'constants',         'fold' : 0, 'stl' : 1},
+        \ {'short' : 'i', 'long' : 'its',               'fold' : 0, 'stl' : 1}
     \ ]
     let type_crystal.sro        = '::'
     let types.crystal = type_crystal
