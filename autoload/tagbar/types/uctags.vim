@@ -329,6 +329,7 @@ function! tagbar#types#uctags#init(supported_types) abort
         \ {'short' : 'f', 'long' : 'functions',         'fold' : 0, 'stl' : 1},
         \ {'short' : 'M', 'long' : 'macros',            'fold' : 0, 'stl' : 1},
         \ {'short' : 'l', 'long' : 'libs',              'fold' : 0, 'stl' : 1},
+        \ {'short' : 'e', 'long' : 'enums',             'fold' : 0, 'stl' : 1},
         \ {'short' : 's', 'long' : 'structs',           'fold' : 0, 'stl' : 1},
         \ {'short' : 'a', 'long' : 'aliases',           'fold' : 0, 'stl' : 1},
         \ {'short' : 'p', 'long' : 'properties',        'fold' : 0, 'stl' : 1},
